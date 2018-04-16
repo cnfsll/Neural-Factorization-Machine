@@ -7,7 +7,7 @@ Created on Tue Apr  3 17:00:42 2018
 import numpy as np
 import os
 
-class MyLoadData(object):
+class LoadData(object):
     '''
     给定数据的路径，读取相应的训练、验证和测试集数据
     输入：path
