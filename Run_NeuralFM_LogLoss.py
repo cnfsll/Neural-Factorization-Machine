@@ -30,7 +30,7 @@ Loss_type = 'log_loss'
 Early_stop = 1
 
 # 读取数据
-data = DATA.MyLoadData(Path, Loss_type)
+data = DATA.LoadData(Path, Loss_type)
 
 activation_function = tf.nn.relu
 if Activation == 'sigmoid':
